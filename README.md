@@ -36,75 +36,31 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
-- [SaaS/Hosted Platforms](#saas-products)
-
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS/Hosted Platforms](#saashosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global AI video generation and processing market is estimated at approximately **$700M to $1B+** in 2024–2025 and projected to exceed **$3.5B to $6B+** by 2030, exhibiting a compound annual growth rate (CAGR) of over 20%. The sector displays a bifurcated market structure: the foundational model and compute layer is **highly concentrated** (an oligopoly driven by intensive GPU infrastructure and massive capital expenditures from giants like Kuaishou, Runway, Google, and Luma), whereas the downstream application and vertical workflow layer (e.g., enterprise avatars, marketing video generators, personalized outreach) remains **moderately to highly fragmented** with numerous specialized SaaS players competing across distinct workflow niches.
 
 ## SaaS/Hosted Platforms
 
-- **[Twelve Labs](https://www.twelvelabs.io/)**  
+| Platform | Valuation / Revenue | Starting Paid Price | Free Tier / Trial Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Kling AI](https://klingai.com/)** | $18.0B est. unit val. / ~$240M–$500M ARR | $6.60/month (Standard, ~660 credits/mo) | 66 credits/day free forever (resets every 24h, non-rolling; ~3–6 short clips/day; watermarked, non-commercial) | Advanced text-to-video and image-to-video platform with high motion quality, commercial creative tools, and cinematic rendering capabilities. |
+| **[Runway Gen-3](https://runwayml.com/)** | $5.3B val. / $200M+ ARR | $15.00/month (or $12/mo billed annually for Standard, 625 credits/mo) | 125 one-time credits upon sign-up (~25s of video; one-time allotment, never renews; watermarked, non-commercial, 5 GB storage) | Leading generative video suite (Gen-3/Gen-4) for text-to-video, image-to-video, and creative editing workflows with professional editor plugins. |
+| **[Luma Dream Machine](https://lumalabs.ai/)** | $4.0B val. / ~$65M–$80M ARR | $9.99/month (Lite, ~3,200 credits/mo; $30/mo for Plus with commercial rights) | ~80 credits/day free forever (~1 video generation/day; resets daily, non-rolling; watermarked, non-commercial) | High-quality generative video API and studio focused on cinematic motion and rapid generation from prompts or images. |
+| **[Synthesia](https://www.synthesia.io/)** | $4.0B val. / $150M+ ARR | $29.00/month (or ~$18/mo billed annually for Starter, 1,200 credits/mo) | 1,200 credits/month free forever (~10 minutes of video/month; watermarked, direct MP4 downloads disabled, personal use only) | AI avatar and talking-head platform for corporate training, marketing, and multilingual localized video production. |
+| **[Pika Labs](https://pika.art/)** | ~$500M–$700M val. | $10.00/month (or $8/mo billed annually for Starter, ~600 credits/mo) | Free forever exploration account with 0 recurring monthly credits (sign-up provides dashboard access and up to 2 parallel tasks; video generation requires credit pack purchase or plan upgrade) | Creative text-to-video and image-to-video product tailored for social and short-form content generation and VFX effects. |
+| **[HeyGen](https://www.heygen.com/)** | $500M val. / $200M+ ARR | $29.00/month (or $24/mo billed annually for Creator, 600 credits/mo) | Free tier providing up to 3 videos/month (max 1 minute duration per video; watermarked, non-commercial evaluation only) | Avatar video generation with lip-sync, real-time translations, and template-driven talking-head workflows for marketing and sales. |
+| **[D-ID](https://www.d-id.com/)** | ~$350M+ est. val. / ~$30M–$54M ARR | $5.90/month (Lite, ~10–16 minutes/mo) | 14-day free trial with 3 minutes of video generation total (one-time allocation; full-screen watermark, max 30s translations, strictly non-commercial) | Talking-head and digital-human APIs that animate facial images and drive real-time speech-aligned conversational video agents. |
+| **[Twelve Labs](https://www.twelvelabs.io/)** | ~$200M+ total funding / ~$15M–$18M ARR | $29.00/month (Plus plan, 50 GB storage, medium workloads) | Free plan offering up to 3 GB asset storage (~600 minutes of video indexing free forever; shared basic rate limits) | Video understanding platform offering multimodal embeddings and APIs for search, classification, and insight extraction from long-form video. |
+| **[Tavus](https://www.tavus.io/)** | ~$70M–$150M est. val. / ~$5M–$10M ARR | $22.00/month (Builder tier, custom face slots and developer API access) | Free tier providing 20–25 Conversational Video Interface (CVI) minutes/month (concurrency capped at 1 active session; sandbox testing only) | Personalized conversational video and interactive avatar APIs for automated sales outreach, real-time agents, and support experiences. |
 
-  Video understanding platform with multimodal embeddings and APIs for search, classification, and insight extraction from long-form video.
-
-
-
-- **[Runway Gen-3](https://runwayml.com/)**  
-
-  Leading generative video suite (Gen-3 and related tools) for text-to-video, image-to-video, and creative editing workflows.
-
-
-
-- **[Luma Dream Machine](https://lumalabs.ai/)**  
-
-  High-quality generative video API and product focused on cinematic motion and rapid iteration from prompts or images.
-
-
-
-- **[Kling AI](https://klingai.com/)**  
-
-  Advanced text-to-video and image-to-video platform known for strong motion quality and commercial creative use cases.
-
-
-
-- **[VideoCrafter](https://github.com/AILab-CVC/VideoCrafter)**  
-
-  Research-origin video generation stack (often referenced alongside commercial tools) for open and experimental video synthesis pipelines.
-
-
-
-- **[Pika Labs](https://pika.art/)**  
-
-  Creative text-to-video and image-to-video product aimed at social and short-form content generation.
-
-
-
-- **[Synthesia](https://www.synthesia.io/)**  
-
-  AI avatar and talking-head platform for training, marketing, and multilingual video production from scripts.
-
-
-
-- **[HeyGen](https://www.heygen.com/)**  
-
-  Avatar video generation with lip-sync, translations, and template-driven talking-head workflows for business content.
-
-
-
-- **[Tavus](https://www.tavus.io/)**  
-
-  Personalized video and conversational avatar APIs for sales, support, and interactive experiences.
-
-
-
-- **[D-ID](https://www.d-id.com/)**  
-
-  Talking-head and digital-human APIs that animate faces from images and drive speech-aligned video.
+> *Note: Open-source research tool [VideoCrafter](https://github.com/AILab-CVC/VideoCrafter) has been moved to the [Open-Source GitHub Projects](#open-source-github-projects) section below, as it is a research codebase rather than a hosted commercial SaaS platform.*
 
 
 
