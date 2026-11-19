@@ -6,3 +6,5 @@ If you'd like to customize this `README.md` further, let me know:
 * Whether you want a **benchmark comparison table** (e.g., speedups and VRAM savings across `SageAttention`, `TeaCache`, `FP8`, and `GGUF`)
 * Any **specific hardware runtimes** (Apple Silicon `MLX`, AMD `ROCm`, or NVIDIA `TensorRT`) you want emphasized
 </FollowUp>
+# Awesome-AI-Video-Processing-Inference-Optimization
+
