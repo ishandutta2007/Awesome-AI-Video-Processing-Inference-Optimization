@@ -1,54 +1,52 @@
-# Awesome-AI-Video-Processing-Inference-Optimization
+<div align="center">
 
-<FollowUp>
-If you'd like to customize this `README.md` further, let me know:
-* Your **GitHub username** so I can update the repository URL in the footer
-* Whether you want a **benchmark comparison table** (e.g., speedups and VRAM savings across `SageAttention`, `TeaCache`, `FP8`, and `GGUF`)
-* Any **specific hardware runtimes** (Apple Silicon `MLX`, AMD `ROCm`, or NVIDIA `TensorRT`) you want emphasized
-</FollowUp>
-# Awesome-AI-Video-Processing-Inference-Optimization
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome AI Video Processing and Inference Optimization Banner" width="100%" />
+</p>
 
-## Top AI Video Processing & Inference Optimization Ecosystem
+# 🎬 Awesome AI Video Processing & Inference Optimization ⚡
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+[![Awesome](https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/jc4xtF58Ve)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Follow on GitHub](https://img.shields.io/github/followers/ishandutta2007?label=Follow)](https://github.com/ishandutta2007)
 
-*Focused on Generative Video, Video Understanding, Avatar/Talking-Head APIs & Efficient Local Inference*
+**A curated index of cutting-edge SaaS platforms, foundation video models, avatar pipelines, and high-performance inference optimization engines.**
 
-**Last updated: November 2026**
+*Discover, benchmark, and deploy text-to-video (T2V), image-to-video (I2V), video understanding, talking heads, and sub-second GPU acceleration runtimes.*
 
+</div>
 
+---
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **AI Video Processing & Inference Optimization**. These tools cover text-to-video and image-to-video generation, video understanding/search, avatar and lip-sync production, and the runtimes that make large video models practical on consumer and server GPUs.
+## 📌 Table of Contents 📑
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Commercial Platforms](#-saas--hosted-commercial-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [⚙️ Recommended Framework Stack](#-recommended-framework-stack)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [☕ Support](#-support)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
 
+---
 
-**Examples** include Twelve Labs, Runway Gen-3, Luma Dream Machine, Kling AI, VideoCrafter, Pika Labs, Synthesia, HeyGen, Tavus, and D-ID (the category leaders).
+## 📊 Sector Overview & Market Dynamics 🌐
 
+The global **AI video generation and processing market** is estimated at approximately **$700M to $1B+** in 2024–2025 and is projected to expand beyond **$3.5B to $6B+** by 2030, compounding at a CAGR of **>20%**. 
 
+The sector exhibits distinct market dynamics across its architectural layers:
+* **Foundation Model & Compute Layer (Highly Concentrated / Oligopoly):** Building frontier video generation transformers requires massive GPU clusters (10,000+ accelerators) and capital intensive pretraining runs ($10M–$100M+). Consequently, foundational generative video models are dominated by an oligopoly of well-capitalized tech conglomerates and heavily backed AI labs (e.g., Kuaishou Kling, Runway, Luma, Google, Tencent).
+* **Application & Downstream Vertical Layer (Moderately to Highly Fragmented):** Downstream use cases—such as synthetic corporate training avatars, conversational sales agents, automated short-form marketing editors, localization/dubbing tools, and multimodal enterprise video search—are fragmented across hundreds of specialized SaaS startups competing to solve end-to-end customer workflows.
 
-**Open-source emphasis**: Open video models and optimized local inference have advanced rapidly. **FreeVideo (FlashML-org)**, **Wan**, **CogVideoX**, **Open-Sora**, **Mochi**, **ComfyUI**, **Diffusers**, and serving stacks like **vLLM-Omni** enable high-quality generation without proprietary APIs. This section is heavily expanded.
+---
 
+## 🏢 SaaS & Hosted Commercial Platforms ☁️
 
+*Curated hosted platforms for production generative video, conversational avatar APIs, and enterprise multimodal video indexing. Ranked by company valuation and annualized revenue run rate.*
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
-
-The global AI video generation and processing market is estimated at approximately **$700M to $1B+** in 2024–2025 and projected to exceed **$3.5B to $6B+** by 2030, exhibiting a compound annual growth rate (CAGR) of over 20%. The sector displays a bifurcated market structure: the foundational model and compute layer is **highly concentrated** (an oligopoly driven by intensive GPU infrastructure and massive capital expenditures from giants like Kuaishou, Runway, Google, and Luma), whereas the downstream application and vertical workflow layer (e.g., enterprise avatars, marketing video generators, personalized outreach) remains **moderately to highly fragmented** with numerous specialized SaaS players competing across distinct workflow niches.
-
-## SaaS/Hosted Platforms
-
-| Platform | Valuation / Revenue | Starting Paid Price | Free Tier / Trial Limits | Description |
+| 🏷️ Platform | 💰 Valuation / Revenue | 💳 Starting Paid Price | 🎁 Free Tier / Trial Limits | 📝 Description |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Kling AI](https://klingai.com/)** | $18.0B est. unit val. / ~$240M–$500M ARR | $6.60/month (Standard, ~660 credits/mo) | 66 credits/day free forever (resets every 24h, non-rolling; ~3–6 short clips/day; watermarked, non-commercial) | Advanced text-to-video and image-to-video platform with high motion quality, commercial creative tools, and cinematic rendering capabilities. |
 | **[Runway Gen-3](https://runwayml.com/)** | $5.3B val. / $200M+ ARR | $15.00/month (or $12/mo billed annually for Standard, 625 credits/mo) | 125 one-time credits upon sign-up (~25s of video; one-time allotment, never renews; watermarked, non-commercial, 5 GB storage) | Leading generative video suite (Gen-3/Gen-4) for text-to-video, image-to-video, and creative editing workflows with professional editor plugins. |
@@ -60,142 +58,129 @@ The global AI video generation and processing market is estimated at approximate
 | **[Twelve Labs](https://www.twelvelabs.io/)** | ~$200M+ total funding / ~$15M–$18M ARR | $29.00/month (Plus plan, 50 GB storage, medium workloads) | Free plan offering up to 3 GB asset storage (~600 minutes of video indexing free forever; shared basic rate limits) | Video understanding platform offering multimodal embeddings and APIs for search, classification, and insight extraction from long-form video. |
 | **[Tavus](https://www.tavus.io/)** | ~$70M–$150M est. val. / ~$5M–$10M ARR | $22.00/month (Builder tier, custom face slots and developer API access) | Free tier providing 20–25 Conversational Video Interface (CVI) minutes/month (concurrency capped at 1 active session; sandbox testing only) | Personalized conversational video and interactive avatar APIs for automated sales outreach, real-time agents, and support experiences. |
 
-> *Note: Open-source research tool [VideoCrafter](https://github.com/AILab-CVC/VideoCrafter) has been moved to the [Open-Source GitHub Projects](#open-source-github-projects) section below, as it is a research codebase rather than a hosted commercial SaaS platform.*
+---
 
+## 💻 Open-Source GitHub Projects 🛠️
 
+*Top open-source foundation video models, diffusion pipelines, inference acceleration kernels, and talking avatar repositories. Sorted descending by GitHub stargazers count.*
 
-## Open-Source GitHub Projects
+1. **[ComfyUI](https://github.com/comfyanonymous/ComfyUI)** [![Stars](https://img.shields.io/github/stars/comfyanonymous/ComfyUI?style=social&color=white)](https://github.com/comfyanonymous/ComfyUI/stargazers)  
+   The modular, node-based visual workspace and backend execution graph that serves as the gold standard for running, fine-tuning, and chaining open video diffusion pipelines locally.
 
-- **[FreeVideo (FlashML-org)](https://github.com/FlashML-org/FreeVideo)**  
+2. **[Hugging Face Diffusers](https://github.com/huggingface/diffusers)** [![Stars](https://img.shields.io/github/stars/huggingface/diffusers?style=social&color=white)](https://github.com/huggingface/diffusers/stargazers)  
+   The foundational Python library for state-of-the-art diffusion models, serving as the standard ecosystem for text-to-video, image-to-video, schedulers, and LoRA adaptation.
 
-  Local inference engine for MiniMax H3 that runs on consumer GPUs (as little as ~8 GB VRAM), with hardware-adaptive acceleration, ComfyUI integration, and agent-friendly workflows (Apache-2.0).
+3. **[Open-Sora](https://github.com/hpcaitech/Open-Sora)** [![Stars](https://img.shields.io/github/stars/hpcaitech/Open-Sora?style=social&color=white)](https://github.com/hpcaitech/Open-Sora/stargazers)  
+   Colossal-AI's high-performance, fully open-source reproduction of large-scale video diffusion models, including efficient distributed training recipes and inference tooling.
 
+4. **[LivePortrait](https://github.com/KwaiVGI/LivePortrait)** [![Stars](https://img.shields.io/github/stars/KwaiVGI/LivePortrait?style=social&color=white)](https://github.com/KwaiVGI/LivePortrait/stargazers)  
+   Efficient, high-fidelity portrait animation and video-driven talking-head generation with precise facial stitch, eye gaze control, and cross-identity driving.
 
+5. **[Wan 2.1](https://github.com/Wan-Video/Wan2.1)** [![Stars](https://img.shields.io/github/stars/Wan-Video/Wan2.1?style=social&color=white)](https://github.com/Wan-Video/Wan2.1/stargazers)  
+   State-of-the-art open foundation video model suite (1.3B and 14B parameter DiT models) from Alibaba under Apache-2.0, supporting 720p/1080p generation and full Diffusers/ComfyUI integration.
 
-- **[Wan (Wan-Video / Alibaba)](https://github.com/Wan-Video)**  
+6. **[SadTalker](https://github.com/OpenTalker/SadTalker)** [![Stars](https://img.shields.io/github/stars/OpenTalker/SadTalker?style=social&color=white)](https://github.com/OpenTalker/SadTalker/stargazers)  
+   Learning Realistic 3D Motion Coefficients for stylized audio-driven single-image talking face generation with expression control.
 
-  Strong open-weight text-to-video and image-to-video family (Wan 2.1 / 2.2) under Apache-2.0, widely used in ComfyUI and Diffusers pipelines.
+7. **[CogVideoX](https://github.com/THUDM/CogVideo)** [![Stars](https://img.shields.io/github/stars/THUDM/CogVideo?style=social&color=white)](https://github.com/THUDM/CogVideo/stargazers)  
+   Zhipu AI's flagship open-source video generation models (CogVideoX-2B and CogVideoX-5B) featuring 3D causal VAEs and expert DiT architectures optimized for lower VRAM.
 
+8. **[HunyuanVideo](https://github.com/Tencent/HunyuanVideo)** [![Stars](https://img.shields.io/github/stars/Tencent/HunyuanVideo?style=social&color=white)](https://github.com/Tencent/HunyuanVideo/stargazers)  
+   Tencent's frontier 13B parameter open-source video generative model featuring a unified dual-stream and single-stream DiT architecture for high-resolution video synthesis.
 
+9. **[AnimateDiff](https://github.com/guoyww/AnimateDiff)** [![Stars](https://img.shields.io/github/stars/guoyww/AnimateDiff?style=social&color=white)](https://github.com/guoyww/AnimateDiff/stargazers)  
+   Pioneering motion module framework that animates personalized text-to-image diffusion models without needing dedicated video fine-tuning.
 
-- **[CogVideoX](https://github.com/THUDM/CogVideo)**  
+10. **[Open-Sora-Plan](https://github.com/PKU-YuanGroup/Open-Sora-Plan)** [![Stars](https://img.shields.io/github/stars/PKU-YuanGroup/Open-Sora-Plan?style=social&color=white)](https://github.com/PKU-YuanGroup/Open-Sora-Plan/stargazers)  
+    Community-driven open research initiative from PKU and YuanGroup aimed at reproducing high-definition, long-duration video generation models with open data recipes.
 
-  Open text-to-video and image-to-video models from Zhipu/THUDM with Diffusers support and relatively accessible VRAM profiles.
+11. **[LTX-Video](https://github.com/Lightricks/LTX-Video)** [![Stars](https://img.shields.io/github/stars/Lightricks/LTX-Video?style=social&color=white)](https://github.com/Lightricks/LTX-Video/stargazers)  
+    Lightricks' real-time capable DiT video generation architecture capable of synthesizing high-resolution video clips faster than playback speed on modern GPUs.
 
+12. **[Hallo](https://github.com/fudan-generative-vision/hallo)** [![Stars](https://img.shields.io/github/stars/fudan-generative-vision/hallo?style=social&color=white)](https://github.com/fudan-generative-vision/hallo/stargazers)  
+    Hierarchical audio-driven visual synthesis for portrait image animation with expressive lip-sync and lifelike head motion.
 
+13. **[vLLM-Omni](https://github.com/vllm-project/vllm-omni)** [![Stars](https://img.shields.io/github/stars/vllm-project/vllm-omni?style=social&color=white)](https://github.com/vllm-project/vllm-omni/stargazers)  
+    High-throughput, low-latency omni-modal serving runtime extending vLLM to support video generation and multimodal diffusion serving at scale.
 
-- **[Open-Sora](https://github.com/hpcaitech/Open-Sora)**  
+14. **[Video-Retalking](https://github.com/vinthony/video-retalking)** [![Stars](https://img.shields.io/github/stars/vinthony/video-retalking?style=social&color=white)](https://github.com/vinthony/video-retalking/stargazers)  
+    Audio-based lip synchronization and facial expression editing system for talking heads in arbitrary in-the-wild videos.
 
-  Community effort to build open Sora-style video generation, with training and inference code under permissive licensing.
+15. **[VideoCrafter](https://github.com/AILab-CVC/VideoCrafter)** [![Stars](https://img.shields.io/github/stars/AILab-CVC/VideoCrafter?style=social&color=white)](https://github.com/AILab-CVC/VideoCrafter/stargazers)  
+    Open toolkit for high-quality text-to-video and image-to-video synthesis, camera motion control, and high-resolution video restoration.
 
+16. **[SageAttention](https://github.com/thu-ml/SageAttention)** [![Stars](https://img.shields.io/github/stars/thu-ml/SageAttention?style=social&color=white)](https://github.com/thu-ml/SageAttention/stargazers)  
+    Plug-and-play, accurate 8-bit quantized attention kernel providing 2x–3x speedups for video diffusion transformers (DiTs) with zero quality loss.
 
+17. **[Mochi](https://github.com/genmoai/mochi)** [![Stars](https://img.shields.io/github/stars/genmoai/mochi?style=social&color=white)](https://github.com/genmoai/mochi/stargazers)  
+    Genmo's 10B open-weights Asymmetric Diffusion Transformer (AsymmDiT) capable of cinematic motion and high prompt fidelity under Apache-2.0.
 
-- **[Mochi](https://github.com/genmoai/mochi)**  
+18. **[FreeVideo](https://github.com/FlashML-org/FreeVideo)** [![Stars](https://img.shields.io/github/stars/FlashML-org/FreeVideo?style=social&color=white)](https://github.com/FlashML-org/FreeVideo/stargazers)  
+    Ultra-efficient inference engine enabling MiniMax H3-class video models to run locally on consumer GPUs with as little as ~8 GB VRAM.
 
-  Open text-to-video model (Genmo) with Apache-2.0 weights, aimed at high-quality short clips on capable GPUs.
+19. **[TeaCache](https://github.com/ali-vilab/TeaCache)** [![Stars](https://img.shields.io/github/stars/ali-vilab/TeaCache?style=social&color=white)](https://github.com/ali-vilab/TeaCache/stargazers)  
+    Timestep Embedding Aware Caching algorithm that slashes inference latency by 2x–3x in video diffusion models without retraining.
 
-
-
-- **[HunyuanVideo](https://github.com/Tencent/HunyuanVideo)**  
-
-  Tencent’s open video generation models; check the community license for territorial and commercial constraints.
-
-
-
-- **[LTX-Video](https://github.com/Lightricks/LTX-Video)**  
-
-  Lightricks open video generation stack with Diffusers-style pipelines; review the LTX community license for commercial use.
-
-
-
-- **[ComfyUI](https://github.com/comfyanonymous/ComfyUI)**  
-
-  Node-based UI that has become the default local workspace for chaining open video models, upscalers, and post-process graphs.
-
-
-
-- **[Hugging Face Diffusers](https://github.com/huggingface/diffusers)**  
-
-  Standard library for loading and running diffusion-based image and video pipelines, including many open T2V/I2V models.
-
-
-
-- **[VideoCrafter](https://github.com/AILab-CVC/VideoCrafter)**  
-
-  Open research codebase for high-quality video generation and related conditioning techniques.
-
-
-
-- **[AnimateDiff](https://github.com/guoyww/AnimateDiff)**  
-
-  Motion module approach for animating image models; still widely used in open video and motion pipelines.
-
-
-
-- **[vLLM-Omni](https://github.com/vllm-project/vllm-omni)**  
-
-  Extension of vLLM for efficient omni-modal inference, including diffusion/video generation serving patterns.
-
-
-
-- **[Native Video Inference / optimized runtimes](https://github.com/creatify-ai/native-video-inference)**  
-
-  Specialized runtimes focused on faster cold starts and lower idle GPU time for production video model serving.
-
-
-
-- **[OpenVDN / Video DeltaNet](https://github.com/OpenVDN)**  
-
-  Acceleration and hybrid-attention approaches used by projects like FreeVideo to run large video models on limited VRAM.
-
-
-
-### Additional Strong Open-Source Options
-
-- Consumer-GPU video generation with **FreeVideo** + MiniMax H3-class models.
-
-- Permissive open weights via **Wan 2.2**, **Mochi**, and **CogVideoX** (always verify current license cards).
-
-- Local workflow orchestration with **ComfyUI** and **Diffusers**.
-
-- Research and longer-form pipelines with **Open-Sora** and related training code.
-
-- Serving and inference optimization through **vLLM-Omni**, TensorRT-based visual gen, and specialized video runtimes.
-
-- Accepting that commercial APIs (Runway, Luma, Kling, Pika, Synthesia, HeyGen, Tavus, D-ID, Twelve Labs) still lead in polish, scale, support, and turnkey avatar/search products.
-
-
-
-**Frameworks for building custom systems**: Choose an open model (**Wan**, **CogVideoX**, **Mochi**, or H3 via **FreeVideo**) → run in **ComfyUI** or **Diffusers** → optimize with quantization/offload or a dedicated runtime (**vLLM-Omni**, TensorRT visual gen) → expose via API. Suitable for teams that want control over cost and data. Many production systems still mix open models for experimentation with commercial APIs for reliability.
-
-
-
-## How to Contribute
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Open video model licenses vary (Apache-2.0, community licenses with territory or revenue limits). Always read the model card and license before commercial use. This list is not legal advice.
-
-
+20. **[Native Video Inference](https://github.com/creatify-ai/native-video-inference)** [![Stars](https://img.shields.io/github/stars/creatify-ai/native-video-inference?style=social&color=white)](https://github.com/creatify-ai/native-video-inference/stargazers)  
+    Lightweight, optimized C++ and CUDA serving runtime focused on ultra-fast cold starts and minimal idle GPU overhead for video pipelines.
 
 ---
 
-**Made for ML engineers, creative technologists, and open-source advocates.**
+## ⚙️ Recommended Framework Stack 🧩
 
-Let's keep AI video generation efficient, local-friendly, and as open as practical.
+For teams building self-hosted, scalable video generation infrastructure:
+
+```mermaid
+flowchart LR
+    A["Input Prompts / Reference Assets"] --> B["Orchestration<br/>(ComfyUI / Diffusers)"]
+    B --> C["Foundation Model<br/>(Wan 2.1 / CogVideoX / Hunyuan)"]
+    C --> D["Inference Kernel Boost<br/>(SageAttention / TeaCache / FP8)"]
+    D --> E["Serving Infrastructure<br/>(vLLM-Omni / FreeVideo / Triton)"]
+    E --> F["Production Output<br/>(4K HDR Stream / MP4 API)"]
+```
+
+* **Foundation Models:** Choose **Wan 2.1** (balanced speed & photorealism) or **HunyuanVideo** (extreme visual fidelity).
+* **Speedup Kernels:** Integrate **SageAttention** (INT8/FP8 attention acceleration) and **TeaCache** (skipping redundant DiT steps).
+* **Local VRAM Constraints:** Utilize **FreeVideo** or **ComfyUI-GGUF** offloading for 8GB–16GB consumer RTX cards.
+* **Serving Production:** Deploy via **vLLM-Omni** for high concurrency and dynamic batching.
+
+---
+
+## 🤝 How to Contribute 💡
+
+We welcome contributions from the community! To suggest a new project, runtime, or updated pricing:
+
+1. 🍴 **Fork** the repository.
+2. 🌿 **Create a branch**: `git checkout -b feature/add-new-video-tool`.
+3. 📝 **Edit `README.md`**: Follow the established format, ensuring all SaaS entries provide explicit pricing and exact free tier limits, and open-source repositories include star badges.
+4. 🚀 **Submit a Pull Request** with a concise description of the library and its license.
+
+---
+
+## ☕ Support 💖
+
+If you found this curated list helpful for your research, workflow, or infrastructure builds, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it.
+- 🍴 **Fork and share** it across your network and community.
+- ☕ **Sponsor the maintainer** via GitHub Sponsors:  
+  [![GitHub Sponsors](https://img.shields.io/badge/Sponsor-%E2%99%A5-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/ishandutta2007)
+
+---
+
+## 📈 Star History 🌟
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-AI-Video-Processing-Inference-Optimization&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-AI-Video-Processing-Inference-Optimization&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer ⚖️
+
+- This is an independently curated open-source community resource. All product names, logos, and brands belong to their respective owners.
+- Open-source video model licenses vary widely (e.g., Apache-2.0, MIT, custom community licenses with commercial revenue boundaries). Always verify license terms on each upstream repository before deployment.
+
+---
+
+<div align="center">
+  <sub>Maintained with ❤️ by <a href="https://github.com/ishandutta2007">Ishan Dutta</a> and the open-source AI video community.</sub>
+</div>
