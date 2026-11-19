@@ -8,3 +8,121 @@ If you'd like to customize this `README.md` further, let me know:
 </FollowUp>
 # Awesome-AI-Video-Processing-Inference-Optimization
 
+# Top AI Video Processing & Inference Optimization Ecosystem
+**Curated List of SaaS Products & Open-Source GitHub Projects**
+*Focused on Generative Video, Video Understanding, Avatar/Talking-Head APIs & Efficient Local Inference*
+**Last updated: November 2026**
+
+This repository tracks notable **SaaS platforms** and **open-source projects** for **AI Video Processing & Inference Optimization**. These tools cover text-to-video and image-to-video generation, video understanding/search, avatar and lip-sync production, and the runtimes that make large video models practical on consumer and server GPUs.
+
+**Examples** include Twelve Labs, Runway Gen-3, Luma Dream Machine, Kling AI, VideoCrafter, Pika Labs, Synthesia, HeyGen, Tavus, and D-ID (the category leaders).
+
+**Open-source emphasis**: Open video models and optimized local inference have advanced rapidly. **FreeVideo (FlashML-org)**, **Wan**, **CogVideoX**, **Open-Sora**, **Mochi**, **ComfyUI**, **Diffusers**, and serving stacks like **vLLM-Omni** enable high-quality generation without proprietary APIs. This section is heavily expanded.
+
+Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+
+## Table of Contents
+- [SaaS/Hosted Platforms](#saas-products)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
+
+## SaaS/Hosted Platforms
+- **[Twelve Labs](https://www.twelvelabs.io/)**  
+  Video understanding platform with multimodal embeddings and APIs for search, classification, and insight extraction from long-form video.
+
+- **[Runway Gen-3](https://runwayml.com/)**  
+  Leading generative video suite (Gen-3 and related tools) for text-to-video, image-to-video, and creative editing workflows.
+
+- **[Luma Dream Machine](https://lumalabs.ai/)**  
+  High-quality generative video API and product focused on cinematic motion and rapid iteration from prompts or images.
+
+- **[Kling AI](https://klingai.com/)**  
+  Advanced text-to-video and image-to-video platform known for strong motion quality and commercial creative use cases.
+
+- **[VideoCrafter](https://github.com/AILab-CVC/VideoCrafter)**  
+  Research-origin video generation stack (often referenced alongside commercial tools) for open and experimental video synthesis pipelines.
+
+- **[Pika Labs](https://pika.art/)**  
+  Creative text-to-video and image-to-video product aimed at social and short-form content generation.
+
+- **[Synthesia](https://www.synthesia.io/)**  
+  AI avatar and talking-head platform for training, marketing, and multilingual video production from scripts.
+
+- **[HeyGen](https://www.heygen.com/)**  
+  Avatar video generation with lip-sync, translations, and template-driven talking-head workflows for business content.
+
+- **[Tavus](https://www.tavus.io/)**  
+  Personalized video and conversational avatar APIs for sales, support, and interactive experiences.
+
+- **[D-ID](https://www.d-id.com/)**  
+  Talking-head and digital-human APIs that animate faces from images and drive speech-aligned video.
+
+## Open-Source GitHub Projects
+- **[FreeVideo (FlashML-org)](https://github.com/FlashML-org/FreeVideo)**  
+  Local inference engine for MiniMax H3 that runs on consumer GPUs (as little as ~8 GB VRAM), with hardware-adaptive acceleration, ComfyUI integration, and agent-friendly workflows (Apache-2.0).
+
+- **[Wan (Wan-Video / Alibaba)](https://github.com/Wan-Video)**  
+  Strong open-weight text-to-video and image-to-video family (Wan 2.1 / 2.2) under Apache-2.0, widely used in ComfyUI and Diffusers pipelines.
+
+- **[CogVideoX](https://github.com/THUDM/CogVideo)**  
+  Open text-to-video and image-to-video models from Zhipu/THUDM with Diffusers support and relatively accessible VRAM profiles.
+
+- **[Open-Sora](https://github.com/hpcaitech/Open-Sora)**  
+  Community effort to build open Sora-style video generation, with training and inference code under permissive licensing.
+
+- **[Mochi](https://github.com/genmoai/mochi)**  
+  Open text-to-video model (Genmo) with Apache-2.0 weights, aimed at high-quality short clips on capable GPUs.
+
+- **[HunyuanVideo](https://github.com/Tencent/HunyuanVideo)**  
+  Tencent’s open video generation models; check the community license for territorial and commercial constraints.
+
+- **[LTX-Video](https://github.com/Lightricks/LTX-Video)**  
+  Lightricks open video generation stack with Diffusers-style pipelines; review the LTX community license for commercial use.
+
+- **[ComfyUI](https://github.com/comfyanonymous/ComfyUI)**  
+  Node-based UI that has become the default local workspace for chaining open video models, upscalers, and post-process graphs.
+
+- **[Hugging Face Diffusers](https://github.com/huggingface/diffusers)**  
+  Standard library for loading and running diffusion-based image and video pipelines, including many open T2V/I2V models.
+
+- **[VideoCrafter](https://github.com/AILab-CVC/VideoCrafter)**  
+  Open research codebase for high-quality video generation and related conditioning techniques.
+
+- **[AnimateDiff](https://github.com/guoyww/AnimateDiff)**  
+  Motion module approach for animating image models; still widely used in open video and motion pipelines.
+
+- **[vLLM-Omni](https://github.com/vllm-project/vllm-omni)**  
+  Extension of vLLM for efficient omni-modal inference, including diffusion/video generation serving patterns.
+
+- **[Native Video Inference / optimized runtimes](https://github.com/creatify-ai/native-video-inference)**  
+  Specialized runtimes focused on faster cold starts and lower idle GPU time for production video model serving.
+
+- **[OpenVDN / Video DeltaNet](https://github.com/OpenVDN)**  
+  Acceleration and hybrid-attention approaches used by projects like FreeVideo to run large video models on limited VRAM.
+
+### Additional Strong Open-Source Options
+- Consumer-GPU video generation with **FreeVideo** + MiniMax H3-class models.
+- Permissive open weights via **Wan 2.2**, **Mochi**, and **CogVideoX** (always verify current license cards).
+- Local workflow orchestration with **ComfyUI** and **Diffusers**.
+- Research and longer-form pipelines with **Open-Sora** and related training code.
+- Serving and inference optimization through **vLLM-Omni**, TensorRT-based visual gen, and specialized video runtimes.
+- Accepting that commercial APIs (Runway, Luma, Kling, Pika, Synthesia, HeyGen, Tavus, D-ID, Twelve Labs) still lead in polish, scale, support, and turnkey avatar/search products.
+
+**Frameworks for building custom systems**: Choose an open model (**Wan**, **CogVideoX**, **Mochi**, or H3 via **FreeVideo**) → run in **ComfyUI** or **Diffusers** → optimize with quantization/offload or a dedicated runtime (**vLLM-Omni**, TensorRT visual gen) → expose via API. Suitable for teams that want control over cost and data. Many production systems still mix open models for experimentation with commercial APIs for reliability.
+
+## How to Contribute
+1. Fork the repo.
+2. Add/edit entries in `README.md` (follow existing format).
+3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
+4. Submit PR with a short explanation.
+
+Star the repo if you find it useful!
+
+## Disclaimer
+- This is a **community-curated** list — not exhaustive and not an endorsement.
+- Open video model licenses vary (Apache-2.0, community licenses with territory or revenue limits). Always read the model card and license before commercial use. This list is not legal advice.
+
+---
+**Made for ML engineers, creative technologists, and open-source advocates.**
+Let's keep AI video generation efficient, local-friendly, and as open as practical.
