@@ -152,7 +152,7 @@ We welcome contributions from the community! To suggest a new project, runtime, 
 
 1. 🍴 **Fork** the repository.
 2. 🌿 **Create a branch**: `git checkout -b feature/add-new-video-tool`.
-3. 📝 **Edit `README.md`**: Follow the established format, ensuring all SaaS entries provide explicit pricing and exact free tier limits, and open-source repositories include star badges.
+3. 📝 **Edit `README.md`**: Follow the established format, ensuring all SaaS entries provide explicit pricing and exact free tier limits, and open-source repositories include Stars_Badges.
 4. 🚀 **Submit a Pull Request** with a concise description of the library and its license.
 
 ---
